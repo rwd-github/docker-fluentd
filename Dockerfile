@@ -1,5 +1,5 @@
 #FROM fluent/fluentd:v1.2.2-onbuild
-FROM fluent/fluentd:v1.11-1 as base-fluentd
+FROM fluent/fluentd:v1.11-2 as base-fluentd
 USER root
 
 RUN apk add --update --virtual .build-deps \
